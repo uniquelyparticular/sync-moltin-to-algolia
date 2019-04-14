@@ -65,7 +65,7 @@ Next, enter the `ngrok URL` from above and `MOLTIN_WEBHOOK_SECRET` that you save
 
 ![URL and Secret Key](https://user-images.githubusercontent.com/950181/52846929-ca957980-3102-11e9-9a20-23b8139767ee.png)
 
-Now finally you'll want to configure what Moltin Observables (ie. `Products, Brands, Categories, Collections, Orders, Customers`) will cause this webhook to be invoked. In this example we want to monitor the `Products`, `Orders` and `Customers` observables and select the `Created`, `Updated` and `Deleted` box.
+Now finally you'll want to configure what Moltin Observables (ie. `Products, Brands, Categories, Collections, Orders, Customers`) will cause this webhook to be invoked. In this example we want to monitor the `Products` and `Customers` observables and select the `Created`, `Updated` and `Deleted` box.
 
 Click Save to register your new Webhook with Moltin.
 
