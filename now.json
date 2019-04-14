@@ -1,0 +1,20 @@
+{
+  "name": "demo-sync-moltin-to-algolia",
+  "alias": "particular-demo-sync-moltin-to-algolia.now.sh",
+  "env": {
+    "NODE_ENV": "production",
+    "MOLTIN_CLIENT_ID": "@demo-moltin-client-id",
+    "MOLTIN_CLIENT_SECRET": "@demo-moltin-client-secret",
+    "MOLTIN_WEBHOOK_SECRET": "@demo-moltin-webhook-secret",
+    "MOLTIN_AGOLIA_INDICES": "@demo-moltin-algolia-indices",
+    "ALGOLIA_APP_ID": "@demo-algolia-app-id",
+    "ALGOLIA_API_KEY": "@demo-algolia-api-key"
+  },
+  "routes": [{ "src": "/(.*)", "dest": "/src" }],
+  "builds": [
+    {
+      "src": "src/*.js",
+      "use": "@now/node"
+    }
+  ]
+}
