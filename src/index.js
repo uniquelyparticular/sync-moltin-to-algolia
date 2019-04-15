@@ -60,7 +60,7 @@ process.on('unhandledRejection', (reason, p) => {
     integration_type: "webhook",
     name: "DEVELOPMENT: products to algolia"
   },
-  resources: "{"data":{"type":"product","id":"8cad063b-7451-4bed-86b4-9d3b8a3f19c3","name":"#GOALS CREW","slug":"9010709627","sku":"190107096270","manage_stock":false,"description":"#GOALS CREW","price":[{"amount":1600,"currency":"USD","includes_tax":true}],"status":"live","commodity_type":"physical","meta":{"timestamps":{"created_at":"2018-05-31T09:38:28+00:00","updated_at":"2019-04-14T22:33:27+00:00"},"display_price":{"with_tax":{"amount":1600,"currency":"USD","formatted":"$16.00"},"without_tax":{"amount":1600,"currency":"USD","formatted":"$16.00"}},"stock":{"level":0,"availability":"out-stock"},"variation_matrix":[]},"relationships":{},"style":"W557C17#GO","color":"COR","size":"S"}}"
+  resources: "{"data":{"type":"product","id":"8cad063b-7451-4bed-86b4-9d3b8a3f19c3","name":"#GOALS CREW TEST","slug":"9010709627","sku":"190107096270","manage_stock":false,"description":"#GOALS CREW","price":[{"amount":1600,"currency":"USD","includes_tax":true}],"status":"live","commodity_type":"physical","meta":{"timestamps":{"created_at":"2018-05-31T09:38:28+00:00","updated_at":"2019-04-14T22:33:27+00:00"},"display_price":{"with_tax":{"amount":1600,"currency":"USD","formatted":"$16.00"},"without_tax":{"amount":1600,"currency":"USD","formatted":"$16.00"}},"stock":{"level":0,"availability":"out-stock"},"variation_matrix":[]},"relationships":{},"style":"W557C17#GO","color":"COR","size":"S"}}"
 }
 /*/
 
