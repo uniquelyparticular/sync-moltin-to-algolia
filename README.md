@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/@particular./sync-moltin-to-algolia.svg)](https://www.npmjs.com/package/@particular./sync-moltin-to-algolia) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![CircleCI](https://img.shields.io/circleci/project/github/uniquelyparticular/sync-moltin-to-algolia.svg?label=circleci)](https://circleci.com/gh/uniquelyparticular/sync-moltin-to-algolia)
 
-> Add/Update a Algolia indexed object when an object is created or modified in Moltin
+> Add/Update a Algolia indexed object when an object is created or modified in moltin
 
 Asynchronous microservice that is triggered by [moltin](https://moltin.com) webhooks to add/update an object inside of [Algolia](https://algolia.com).
 
@@ -68,6 +68,9 @@ Next, enter the `ngrok URL` from above and `MOLTIN_WEBHOOK_SECRET` that you save
 Now finally you'll want to configure what Moltin Observables (ie. `Products, Brands, Categories, Collections, Orders, Customers`) will cause this webhook to be invoked. In this example we want to monitor the `Products` and `Customers` observables and select the `Created`, `Updated` and `Deleted` box.
 
 Click Save to register your new Webhook with Moltin.
+
+**NOTE**: this repository is based on a fantastic set of code from our partners at [moltin](https://moltin.com), available at:
+https://github.com/moltin/integration-examples/tree/master/sync-catalog-to-algolia
 
 ## 🚀 Deploy
 
