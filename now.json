@@ -1,6 +1,7 @@
 {
+  "version": 2,
   "name": "demo-sync-moltin-to-algolia",
-  "alias": "particular-demo-sync-moltin-to-algolia.now.sh",
+  "alias": "particular-sync-moltin-to-algolia.now.sh",
   "env": {
     "NODE_ENV": "production",
     "MOLTIN_CLIENT_ID": "@demo-moltin-client-id",
