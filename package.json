@@ -39,7 +39,7 @@
     "micro-cors": "0.1.1"
   },
   "devDependencies": {
-    "husky": "2.3.0",
+    "husky": "5.0.9",
     "jest": "24.8.0",
     "micro-dev": "3.0.0",
     "prettier": "1.17.1",
