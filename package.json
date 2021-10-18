@@ -34,7 +34,7 @@
     }
   },
   "dependencies": {
-    "algoliasearch": "3.33.0",
+    "algoliasearch": "3.35.1",
     "micro": "9.3.4",
     "micro-cors": "0.1.1"
   },
